@@ -17,10 +17,7 @@ The list of functionalities the tool can do:
   * Extract a single file
   * Use a hash file to find the names of the files in the archives (Hash/hashes_filename.txt format is: ph#sh#full_filename). I ll try to make it an option so you can actually load a hash file instead of the file requiring to be in a fixed folder.
 
-_*At the moment, no hashlist will be provided, there are risks involved in doing so*_
-
 = List of ToDos =
-  * *Urgent*: Allow a user to actually choose the extraction path, at the moment, extraction will be done where the archive is found, this might mean your war folder, which is bad for the game (it does not like to have all the files extracted it seems).
   * Make the tree view show file tree and system tree
   * Make the tree view react to drag and drops
   * Allow for file replacement (this is *bugged* atm, compression problem)
