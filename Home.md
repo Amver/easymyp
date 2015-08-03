@@ -1,0 +1,29 @@
+# Introduction #
+
+EasyMYP is a tool that has been made to start working on the WAR AddOn/UI System. It ended up growing a bit from a command line tool to a GUI with a set of libraries. The GUI is far from finished as one can see when you download the tool.
+Since I did not know if I was going to play the game, i did not really work on the GUI, did not see any use to it. However I'll try to make the tree view work as soon as possible since it will be much easier to search for files that way instead of the plain list.
+
+# Details #
+
+Requirements:
+  * The program is made in C# with the .NET framework 3.5, sorry for the **nix users out there.**
+
+The list of functionalities the tool can do:
+  * Extract whole **MYP** archives, it _MIGHT_ work on **UOP** files
+  * Extract a list of selected files
+  * Dump the list of filenames within a MYP
+  * Replace a file in a MYP
+  * Use a hash dictionary file to store the names of the files within the archives (Hash/hashes\_filename.txt format is: ph#sh#full\_filename#crc). I'll try to make it an option so you can actually load a hash file instead of the file requiring to be in a fixed folder.
+  * Several functionalities to test potential filenames against the dictionary (filename compositon, numerical bruteforce, art filename composition)
+
+# List of ToDos #
+  * Make the tree view show file tree and system tree
+  * Make the tree view react to drag and drops
+  * See the Issues list on googlecode.com for other feature requests
+
+# Reminders #
+  * In no way what so ever I guarantee the program to work on your system.
+  * In no way what so ever I am eligible for suing for your wrong doings with this tool.
+
+# Help #
+  * If some are interested in trying to better the tool, feel free to contact us. Contact are on the front page of our googlecode page (http://code.google.com/p/easymyp/)
